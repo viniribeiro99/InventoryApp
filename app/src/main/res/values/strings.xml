@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="product_saved">Produto salvo com id </string>
+    <string name="error_saving">Erro ao salvar produto</string>
+    <string name="add_product">Adicionar produto</string>
+    <string name="edit_product">Editar produto</string>
+    <string name="error_updating">Erro ao atualizar produto</string>
+    <string name="product_updated">Produto atualizado com sucesso</string>
+    <string name="product_name">Produto</string>
+    <string name="product_price">Preço: </string>
+    <string name="product_quantity">Quantidade: </string>
+    <string name="product_supplier">Fornecedor: </string>
+    <string name="delete_all_itens">Tem certeza que deseja deletar todos os produtos do banco de dados?</string>
+    <string name="delete_button">Deletar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="supplier_phone">Telefone do fornecedor: </string>
+    <string name="empty_view">Não há produtos a serem exibidos.</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="12dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:text="Adicionar produto"
+            android:id="@+id/activityTitleTextId"/>
+
+        <TextView
+            style="@style/TextViewSaveActivity"
+            android:text="Produto" />
+
+        <EditText
+            style="@style/EditText"
+            tools:text="dawwdadawdawdadawd"
+            android:id="@+id/nameEditId" />
+
+        <TextView
+            style="@style/TextViewSaveActivity"
+            android:text="Preço (R$)" />
+
+        <EditText
+            style="@style/EditText"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            tools:text="12,00"
+            android:id="@+id/priceEditId" />
+        <TextView
+            style="@style/TextViewSaveActivity"
+            android:text="Quantidade"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="35dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/removebutton"
+                android:id="@+id/removeButtonId"
+                android:focusableInTouchMode="false"/>
+
+            <TextView
+                style="@style/TextViewSaveActivity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                tools:text="1"
+                android:id="@+id/quantityTextId"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/addbutton"
+                android:id="@+id/addButtonId"
+                android:focusableInTouchMode="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextViewSaveActivity"
+            android:text="Fornecedor" />
+
+        <EditText
+            style="@style/EditText"
+            tools:text="dawwdadawdawdadawd"
+            android:id="@+id/supplierEditId"/>
+
+        <TextView
+            style="@style/TextViewSaveActivity"
+            android:text="Telefone do fornecedor" />
+
+        <EditText
+            style="@style/EditText"
+            android:gravity="center"
+            tools:text="(71)999999999"
+            android:inputType="phone"
+            android:id="@+id/supplierPhoneEditId"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="salvar"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:paddingHorizontal="12dp"
+            android:layout_marginVertical="12dp"
+            android:id="@+id/saveButtonId"/>
+
+    </LinearLayout>
+</ScrollView>
